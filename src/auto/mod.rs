@@ -155,8 +155,14 @@ pub use self::notebook::Notebook;
 mod overlay;
 pub use self::overlay::Overlay;
 
+mod page_setup;
+pub use self::page_setup::PageSetup;
+
 mod paned;
 pub use self::paned::Paned;
+
+mod paper_size;
+pub use self::paper_size::PaperSize;
 
 #[cfg(gtk_3_10)]
 mod places_sidebar;
